@@ -17,7 +17,7 @@ navLinks.forEach((link) => {
   });
 });
 
-// Close menu when clicking the button
+// Close menu when clicking the contact link
 const contactButton = menu.querySelector(".primary-button");
 if (contactButton) {
   contactButton.addEventListener("click", () => {

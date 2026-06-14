@@ -392,7 +392,7 @@ section.what-we-do {
   padding-top: 100px;
   padding-bottom: 70px;
   background-color: var(--warning);
-  background-image: url(/assets/bg.png);
+  background-image: url(../assets/bg.png);
 }
 section.what-we-do .container:nth-child(1) {
   display: flex;
@@ -567,7 +567,7 @@ section.benefits {
   padding-top: 70px;
   padding-bottom: 70px;
   background-color: var(--warning);
-  background-image: url(/assets/bg.png);
+  background-image: url(../assets/bg.png);
 }
 section.benefits .container {
   display: flex;
@@ -831,7 +831,7 @@ section.testimonials .container .cta-icon {
 section.faq {
   padding-block: 64px;
   background-color: var(--warning);
-  background-image: url(/assets/bg.png);
+  background-image: url(../assets/bg.png);
 }
 section.faq .container {
   display: flex;
@@ -1048,7 +1048,7 @@ section.get-started .get-started-grid .get-started-image img {
 footer {
   padding-block: 80px;
   background-color: var(--warning);
-  background-image: url(/assets/bg.png);
+  background-image: url(../assets/bg.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -1248,4 +1248,52 @@ button {
   .sm-hidden {
     display: none !important;
   }
-}/*# sourceMappingURL=main.css.map */
+}
+
+a.primary-button,
+a.secondary-button,
+a.cta-link,
+a.secondary-link {
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+
+a.primary-button {
+  padding: 10px 20px;
+}
+
+section.classes .container .cta-link,
+section.how-it-works .container .cta-link,
+section.faq .container .cta-link {
+  margin-top: 28px;
+  font-family: Inter, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.32px;
+  color: var(--warning-foreground);
+}
+
+section.hero .hero-inside .buttons-wrapper .secondary-link {
+  color: var(--warning-foreground);
+  font-weight: 500;
+  padding: 10px 20px;
+}
+
+[dir="rtl"] body {
+  font-family: "Cairo", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+[dir="rtl"] .scroll-to-top {
+  left: 24px;
+  right: auto;
+}
+
+[dir="rtl"] section.hero .hero-inside .buttons-wrapper .secondary-link img,
+[dir="rtl"] section.get-started .get-started-grid .get-started-content .buttons-wrapper .primary-button img,
+[dir="rtl"] section.faq .container .cta-link img {
+  transform: scaleX(-1);
+}
+/*# sourceMappingURL=main.css.map */
