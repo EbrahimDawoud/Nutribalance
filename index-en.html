@@ -1,15 +1,20 @@
 <!doctype html>
-<html lang="ar" dir="rtl">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="styles/main.css" />
-    <title>Nutribalance — Arabic</title>
+    <link rel="icon" type="image/x-icon" href="assets/icn.png" />
+    <title>Nutribalance</title>
   </head>
   <body>
-    <!-- Arabic placeholder page. Content will be added later. -->
-
     <!-- Start Header -->
     <header>
       <div class="container">
@@ -24,19 +29,19 @@
         <div class="actions" id="menu">
           <a
             class="lang-toggle"
-            href="index.html"
+            href="index-ar.html"
             aria-label="Open Arabic version"
-            >EN</a
+            >عربي</a
           >
           <nav>
             <ul>
-              <li><a href="#about-us">من نحن</a></li>
-              <li><a href="#classes">الخدمات</a></li>
-              <li><a href="#">النتائج</a></li>
-              <li><a href="#">المقالات</a></li>
+              <li><a href="#about-us">About</a></li>
+              <li><a href="#classes">Classes</a></li>
+              <li><a href="#">Instructors</a></li>
+              <li><a href="#">Blog</a></li>
             </ul>
           </nav>
-          <button class="primary-button">تواصل معنا</button>
+          <button class="primary-button">Contact us</button>
         </div>
       </div>
     </header>
@@ -56,34 +61,35 @@
             <img src="assets/icons/star.svg" alt="Star" />
             <img src="assets/icons/star.svg" alt="Star" />
           </div>
-          <span>بتقييم 4.9 من 5 من عملائنا</span>
+          <span>Rated 4.9/5 by our clients</span>
         </div>
 
         <h1>
-          <span>تحرك</span>
-          <span></span>
-          <span>بسهولة</span>
-          <span>و</span>
-          <span>تنفس</span>
-          <span>بوعي</span>
+          <span>Move</span>
+          <span>with</span>
+          <span>ease</span>
+          <span>and</span>
+          <span>breathe</span>
+          <span>with</span>
+          <span>intent</span>
         </h1>
 
         <p>
-          انضم إلى دروس اليوغا اليومية في نيوتري بالانس لتتحرك بشكل أفضل، وتشعر
-          بمزيد من القوة، وتعيش حياة واعية.
+          Join daily yoga classes at Nutribalance to move better, feel stronger,
+          and live intentionally.
         </p>
 
         <div class="buttons-wrapper">
-          <button class="primary-button">ابدأ الآن</button>
+          <button class="primary-button">Explore classes</button>
           <button>
+            <span>Watch video</span>
             <img src="assets/icons/arrow-right.svg" alt="Watch Video" />
-            <span>شاهد النتائج</span>
           </button>
         </div>
 
         <div class="images-wrapper">
           <div class="sm-hidden">
-            <img src="assets/hero/04.png" alt="Image 04" />
+            <img src="assets/hero/01.png" alt="Image 01" />
           </div>
           <div>
             <img src="assets/hero/02.png" alt="Image 02" />
@@ -92,32 +98,33 @@
             <img src="assets/hero/03.png" alt="Image 03" />
           </div>
           <div class="sm-hidden">
-            <img src="assets/hero/01.png" alt="Image 01" />
+            <img src="assets/hero/04.png" alt="Image 04" />
           </div>
         </div>
       </div>
     </section>
     <!-- End Hero -->
 
-    <!-- Start من نحن Us -->
+    <!-- Start About Us -->
     <section id="about-us" class="about-us">
       <div class="container">
         <div class="section-header">
           <span class="dot"></span>
-          <span>من نحن</span>
+          <span>About us</span>
         </div>
 
         <div class="about-us-paragraph">
-          <span>يقدم Nutribalance تجربة يوغا مهدئة </span>
+          <span>Nutribalance offers calming yoga experience </span>
           <div>
-            <span>على التنفس، والحركة، والتوازن الداخلي.</span>
+            <span>on breath, movement, and inner balance.</span>
             <img src="assets/icons/relax.svg" alt="balance" />
           </div>
           <div>
-            <span>صُممت فصولنا الدراسية لتناسب جميع المستويات</span>
+            <span>Designed for all levels, our classes</span>
             <img src="assets/icons/plant.svg" alt="classes" />
+            <span>help you</span>
           </div>
-          <span>أعد الاتصال بنفسك، عقلك وجسدك.</span>
+          <span>reconnect with yourself mind and body.</span>
         </div>
 
         <div class="stats-cards">
@@ -125,7 +132,7 @@
         </div>
       </div>
     </section>
-    <!-- End من نحن Us -->
+    <!-- End About Us -->
 
     <!-- Start What We Do -->
     <section class="what-we-do">
@@ -137,36 +144,36 @@
         <div class="content">
           <div class="section-header">
             <span class="dot"></span>
-            <span>ماذا نقدم</span>
+            <span>What we do</span>
           </div>
 
           <h2>
-            <span>نرشدك </span>
-            <span class="italic-lora">نحو</span>
-            <span>التوازن والوضوح</span>
+            <span>How we guide you</span>
+            <span class="italic-lora">toward</span>
+            <span>balance & clarity</span>
           </h2>
 
           <p>
-            استكشف ممارسات مصممة لتحقيق التناغم بين جسدك، وتركيز ذهنك، ورفع
-            معنوياتك.
+            Explore practices designed to harmonize your body, focus your mind,
+            and uplift your spirit.
           </p>
 
           <ul>
             <li>
               <img src="assets/icons/check.svg" alt="Guided yoga sessions" />
-              <span>جلسات يوغا موجهة</span>
+              <span>Guided yoga sessions</span>
             </li>
             <li>
               <img src="assets/icons/check.svg" alt="Breathwork & meditation" />
-              <span>تمارين التنفس والتأمل</span>
+              <span>Breathwork & meditation</span>
             </li>
             <li>
-              <img src="assets/icons/check.svg" alt="On-demو access" />
-              <span>الوصول عند الطلب</span>
+              <img src="assets/icons/check.svg" alt="On-demand access" />
+              <span>On-demand access</span>
             </li>
           </ul>
 
-          <button class="primary-button">تواصل معنا</button>
+          <button class="primary-button">Contact us</button>
         </div>
       </div>
 
@@ -174,21 +181,24 @@
         <li class="card">
           <img
             src="assets/what-we-do/relax.svg"
-            alt="Results و Progress Analysis"
+            alt="Results and Progress Analysis"
           />
           <div class="card-content">
-            <h4>النتائج وتحليل التقدم</h4>
+            <h4>Results and Progress Analysis</h4>
             <p>
-              مراقبة الوزن والقياسات ومؤشر كتلة الجسم لضمان الوصول إلى هدفك
-              بطريقة صحيحة وآمنة
+              Monitoring weight, measurements, and BMI to ensure reaching your
+              goal in a correct and safe way.
             </p>
           </div>
         </li>
         <li class="card">
           <img src="assets/what-we-do/follow.svg" alt="Continuous Follow-up" />
           <div class="card-content">
-            <h4>المتابعة المستمرة</h4>
-            <p>متابعة منتظمة للرد على استفساراتكم وتعديل الخطة عند الحاجة</p>
+            <h4>Continuous Follow-up</h4>
+            <p>
+              Regular follow-up to answer your inquiries and adjust the plan
+              when needed.
+            </p>
           </div>
         </li>
         <li class="card">
@@ -197,27 +207,30 @@
             alt="Customized Nutrition Plan"
           />
           <div class="card-content">
-            <h4>خطة تغذية مخصصة</h4>
-            <p>يتم تصميم كل نظام غذائي وفقًا لهدفك وحالتك الصحية ونمط حياتك</p>
+            <h4>Customized Nutrition Plan</h4>
+            <p>
+              Every diet plan is designed according to your goal, health status,
+              and lifestyle.
+            </p>
           </div>
         </li>
       </ul>
     </section>
     <!-- End What We Do -->
 
-    <!-- Start الخدمات -->
+    <!-- Start Classes -->
     <section id="classes" class="classes">
       <div class="container">
         <div class="section-header">
           <span class="dot"></span>
-          <span>الخدمات</span>
+          <span>Classes</span>
         </div>
 
-        <h2>اكتشف ممارسات تبني الانسجام والقوة</h2>
+        <h2>Discover practices that build harmony & strength</h2>
 
         <button>
-          <span>احجزي استشارة</span>
-          <img src="assets/icons/arrow-right.svg" alt="احجزي استشارة" />
+          <span>Book a session</span>
+          <img src="assets/icons/arrow-right.svg" alt="Book a session" />
         </button>
 
         <ul class="classes-grid">
@@ -230,7 +243,7 @@
               </div>
             </div>
             <div class="class-content">
-              <h5>التوازن الأساسي</h5>
+              <h5>Core Balance</h5>
               <div class="state">
                 <div>
                   <img src="assets/icons/user.svg" alt="Rate" />
@@ -238,7 +251,7 @@
                 </div>
                 <div>
                   <img src="assets/icons/time.svg" alt="Rate" />
-                  <span>120 دقائق</span>
+                  <span>120 minutes</span>
                 </div>
               </div>
             </div>
@@ -253,7 +266,7 @@
               </div>
             </div>
             <div class="class-content">
-              <h5>حركة الإيقاع</h5>
+              <h5>Rhythm Motion</h5>
               <div class="state">
                 <div>
                   <img src="assets/icons/user.svg" alt="Rate" />
@@ -261,7 +274,7 @@
                 </div>
                 <div>
                   <img src="assets/icons/time.svg" alt="Rate" />
-                  <span>50 دقائق</span>
+                  <span>50 minutes</span>
                 </div>
               </div>
             </div>
@@ -276,7 +289,7 @@
               </div>
             </div>
             <div class="class-content">
-              <h5>دائرة الطاقة</h5>
+              <h5>Power Circuit</h5>
               <div class="state">
                 <div>
                   <img src="assets/icons/user.svg" alt="Rate" />
@@ -284,7 +297,7 @@
                 </div>
                 <div>
                   <img src="assets/icons/time.svg" alt="Rate" />
-                  <span>55 دقائق</span>
+                  <span>55 minutes</span>
                 </div>
               </div>
             </div>
@@ -299,7 +312,7 @@
               </div>
             </div>
             <div class="class-content">
-              <h5>نحت القوة</h5>
+              <h5>Strength Sculpt</h5>
               <div class="state">
                 <div>
                   <img src="assets/icons/user.svg" alt="Rate" />
@@ -307,7 +320,7 @@
                 </div>
                 <div>
                   <img src="assets/icons/time.svg" alt="Rate" />
-                  <span>40 دقائق</span>
+                  <span>40 minutes</span>
                 </div>
               </div>
             </div>
@@ -322,7 +335,7 @@
               </div>
             </div>
             <div class="class-content">
-              <h5>حرق الدهون التحملي</h5>
+              <h5>Endurance Burn</h5>
               <div class="state">
                 <div>
                   <img src="assets/icons/user.svg" alt="Rate" />
@@ -330,7 +343,7 @@
                 </div>
                 <div>
                   <img src="assets/icons/time.svg" alt="Rate" />
-                  <span>60 دقائق</span>
+                  <span>60 minutes</span>
                 </div>
               </div>
             </div>
@@ -345,7 +358,7 @@
               </div>
             </div>
             <div class="class-content">
-              <h5>تدفق شروق الشمس</h5>
+              <h5>Sunrise Flow</h5>
               <div class="state">
                 <div>
                   <img src="assets/icons/user.svg" alt="Rate" />
@@ -353,7 +366,7 @@
                 </div>
                 <div>
                   <img src="assets/icons/time.svg" alt="Rate" />
-                  <span>45 دقائق</span>
+                  <span>45 minutes</span>
                 </div>
               </div>
             </div>
@@ -361,17 +374,20 @@
         </ul>
       </div>
     </section>
-    <!-- End الخدمات -->
+    <!-- End Classes -->
 
     <!-- Start Benefits -->
     <section class="benefits" id="benefits">
       <div class="container">
         <div class="section-header">
           <span class="dot"></span>
-          <span>الخدمات</span>
+          <span>Classes</span>
         </div>
 
-        <h2>كيف تُغير <span class="italic-lora">الحركة</span> الواعية حياتك</h2>
+        <h2>
+          How mindful <span class="italic-lora">movement</span> transforms
+          <span class="italic-lora">your</span> life
+        </h2>
 
         <div class="benefits-grid">
           <ul>
@@ -381,22 +397,23 @@
                 alt="Based on Scientific Foundations"
               />
               <div class="card-content">
-                <h4>استناداً إلى أسس علمية</h4>
+                <h4>Based on Scientific Foundations</h4>
                 <p>
-                  تستند جميع التوصيات الغذائية إلى أحدث المراجع العلمية في مجال
-                  التغذية
+                  All nutritional recommendations are based on the latest
+                  scientific references in nutrition.
                 </p>
               </div>
             </li>
             <li class="card">
               <img
                 src="assets/benefits/calender.svg"
-                alt="Realistic و Sustainable Goals"
+                alt="Realistic and Sustainable Goals"
               />
               <div class="card-content">
-                <h4>أهداف واقعية ومستدامة</h4>
+                <h4>Realistic and Sustainable Goals</h4>
                 <p>
-                  التركيز على تغيير العادات الغذائية لتحقيق نتائج طويلة الأمد
+                  Focusing on changing dietary habits to achieve long-lasting
+                  results.
                 </p>
               </div>
             </li>
@@ -408,8 +425,11 @@
             <li class="card">
               <img src="assets/benefits/flexible.svg" alt="Flexible Diets" />
               <div class="card-content">
-                <h4>أنظمة غذائية مرنة</h4>
-                <p>دون حرمان، مع مراعاة أطعمتك المفضلة وروتينك اليومي</p>
+                <h4>Flexible Diets</h4>
+                <p>
+                  Without deprivation, taking into account your favorite foods
+                  and daily routine.
+                </p>
               </div>
             </li>
             <li class="card">
@@ -418,10 +438,10 @@
                 alt="Based on Scientific Foundations"
               />
               <div class="card-content">
-                <h4>استناداً إلى أسس علمية</h4>
+                <h4>Based on Scientific Foundations</h4>
                 <p>
-                  تستند جميع التوصيات الغذائية إلى أحدث المراجع العلمية في مجال
-                  التغذية
+                  All nutritional recommendations are based on the latest
+                  scientific references in nutrition.
                 </p>
               </div>
             </li>
@@ -436,35 +456,37 @@
       <div class="container">
         <div class="section-header">
           <span class="dot"></span>
-          <span>كيف نعمل</span>
+          <span>How it works</span>
         </div>
 
-        <h2>خطوات بسيطة لبدء رحلتك الواعية الصافية</h2>
+        <h2>Simple steps to start your clear mindful journey</h2>
 
         <button>
-          <span>احجزي استشارة</span>
-          <img src="assets/icons/arrow-right.svg" alt="احجزي استشارة" />
+          <span>Book a session</span>
+          <img src="assets/icons/arrow-right.svg" alt="Book a session" />
         </button>
 
         <div class="how-it-works-content">
           <div class="steps-wrapper">
             <div class="step-item active" data-step="1">
-              <div class="step-number">اختر مسارك</div>
+              <div class="step-number">Select your path</div>
               <p>
-                اختر الجلسة التي تناسب أهدافك - الهدوء، أو الطاقة، أو التوازن
-                على المدى الطويل
+                Select the session that feels right for your goals—calm, energy,
+                or lifetime balance
               </p>
             </div>
             <div class="step-item" data-step="2">
-              <div class="step-number">احجز موعدك</div>
+              <div class="step-number">Book your time</div>
               <p>
-                اختر الوقت الذي يناسب يومك، وسنتأكد من أن كل شيء جاهز لاستقبالك.
+                Select a time that flows with your day, and we'll make sure
+                everything is ready for your arrival
               </p>
             </div>
             <div class="step-item" data-step="3">
-              <div class="step-number">إبدأ بـ سهولة</div>
+              <div class="step-number">Begin with ease</div>
               <p>
-                ادخل جلستك بذهن صافٍ، واخرج منها وأنت تشعر بخفة وراحة وتواصل.
+                Step into your session with a clear mind and leave feeling
+                lighter, grounded, and connected
               </p>
             </div>
           </div>
@@ -494,115 +516,128 @@
     </section>
     <!-- End How It Works -->
 
-    <!-- Start آراء العملاء -->
+    <!-- Start Testimonials -->
     <section id="testimonials" class="testimonials">
       <div class="container">
         <div class="section-header">
           <span class="dot"></span>
-          <span>آراء العملاء</span>
+          <span>Testimonials</span>
         </div>
 
-        <h2>قصص من أولئك الذين وجدوا الهدوء والتوازن</h2>
+        <h2>
+          Stories from <span class="italic-lora">those</span> who
+          <span class="italic-lora">found</span> calm and balance
+        </h2>
 
         <ul class="testimonials-grid">
           <li class="card">
             <blockquote>
-              "أنا فرحانة أوي إن ربنا رزقني بيكي دكتورة زي العسل، بتخلي الواحد
-              يخس من غير ما يحس، وبيخس بفرحة ومن غير حرمان."
+              "I'm so happy that God blessed me with such a wonderful doctor.
+              She helps you lose weight effortlessly, happily, and without
+              feeling deprived."
             </blockquote>
             <div class="testimonial-footer">
               <div class="author-text">
-                <span class="author-name">أماني</span>
+                <span class="author-name">Amani</span>
               </div>
             </div>
           </li>
 
           <li class="card">
             <blockquote>
-              "مش عارفة أقول لحضرتك إيه، ماكنتش متوقعة أخس من غير أدوية، وأني
-              باكل كمان." ❤️
+              "I don't know what to say. I never expected to lose weight without
+              medication while still enjoying my meals." ❤️
             </blockquote>
             <div class="testimonial-footer">
               <div class="author-text">
-                <span class="author-name">ياسمين محمد</span>
+                <span class="author-name">Yasmine Mohamed</span>
               </div>
             </div>
           </li>
 
           <li class="card">
             <blockquote>
-              "أنا مبسوطة أوي، عملت دايت كذا مرة قبل كده ومشفتش نتيجة، لكن المرة
-              دي شايفة فرق على الميزان وحاسة بفرق كبير في هدومي." ❤️
+              "I've tried dieting many times before without results, but this
+              time I can see the difference on the scale and feel a huge change
+              in how my clothes fit." ❤️
             </blockquote>
             <div class="testimonial-footer">
               <div class="author-text">
-                <span class="author-name">نور عبد الحميد</span>
+                <span class="author-name">Nour Abdel Hamid</span>
               </div>
             </div>
           </li>
 
           <li class="card">
             <blockquote>
-              "النهارده روحت أجيب هدوم وفرحت جدًا، كنت بلبس XL وحاليًا كل الهدوم
-              اللي جبتها Large وMedium." 😊
+              "I went shopping today and was so happy. I used to wear XL, and
+              now all the clothes I bought are Large and Medium." 😊
             </blockquote>
             <div class="testimonial-footer">
               <div class="author-text">
-                <span class="author-name">إيناس شنودة</span>
+                <span class="author-name">Enas Shenouda</span>
               </div>
             </div>
           </li>
 
           <li class="card">
             <blockquote>
-              "عندي فستان كنت جايباه مكنش على قدي، دلوقتي بقيسته ولقيته دخل
-              فيا." 👗✨
+              "I had a dress that didn't fit me before, and now I can finally
+              wear it." 👗✨
             </blockquote>
             <div class="testimonial-footer">
               <div class="author-text">
-                <span class="author-name">إيمان شعبان</span>
+                <span class="author-name">Eman Shaaban</span>
               </div>
             </div>
           </li>
 
           <li class="card">
-            <blockquote>"حاسّة وشي خس وملامحي بقت أحلى." 🌷</blockquote>
+            <blockquote>
+              "I can see the difference in my face, and my features look much
+              better now." 🌷
+            </blockquote>
             <div class="testimonial-footer">
               <div class="author-text">
-                <span class="author-name">شيماء شعبان</span>
+                <span class="author-name">Shaimaa Shaaban</span>
               </div>
             </div>
           </li>
         </ul>
       </div>
     </section>
-    <!-- End آراء العملاء -->
+    <!-- End Testimonials -->
 
-    <!-- Start الأسئلة الشائعة -->
+    <!-- Start FAQ -->
     <section id="faq" class="faq">
       <div class="container">
         <div class="section-header">
           <span class="dot"></span>
-          <span>الأسئلة الشائعة</span>
+          <span>FAQ</span>
         </div>
 
-        <h2>إجابات سريعة لرحلتك في اليوغا</h2>
+        <h2>
+          Quick answers <span class="italic-lora">for</span> your
+          <span class="italic-lora">yoga</span> journey
+        </h2>
 
         <button>
-          <img src="assets/icons/arrow-right.svg" alt="احجزي استشارة" />
-          <span>احجز استشارة</span>
+          <span>Book a session</span>
+          <img src="assets/icons/arrow-right.svg" alt="Book a session" />
         </button>
 
         <ul class="faq-list">
           <li class="faq-item active">
             <button class="faq-header" type="button">
-              <span class="faq-question">ما نوع حصص اليوغا التي تقدمونها؟</span>
+              <span class="faq-question"
+                >What type of yoga classes do you offer?</span
+              >
               <span class="faq-toggle"><span class="toggle-icon">−</span></span>
             </button>
             <div class="faq-answer">
               <p>
-                نحن نقدم حصص هاثا، فينياسا، يين، وريستوريتف لليوغا، بالإضافة إلى
-                جلسات جنتل فلو والتأمل الذهني المصممة لجميع المستويات.
+                We offer Hatha, Vinyasa, Yin, and Restorative yoga classes, plus
+                gentle flow and mindfulness sessions designed for every level.
               </p>
             </div>
           </li>
@@ -610,27 +645,15 @@
           <li class="faq-item">
             <button class="faq-header" type="button">
               <span class="faq-question"
-                >هل أحتاج خبرة سابقة في اليوغا للانضمام؟</span
+                >Do I need prior yoga experience to join?</span
               >
               <span class="faq-toggle"><span class="toggle-icon">+</span></span>
             </button>
             <div class="faq-answer">
               <p>
-                لا تحتاج إلى أي خبرة. يوجه المدربون المبتدئين خطوة بخطوة مع
-                تقديم التعديلات للمستويات المتقدمة.
-              </p>
-            </div>
-          </li>
-
-          <li class="faq-item">
-            <button class="faq-header" type="button">
-              <span class="faq-question">ماذا يجب أن أحضر إلى أول حصة؟</span>
-              <span class="faq-toggle"><span class="toggle-icon">+</span></span>
-            </button>
-            <div class="faq-answer">
-              <p>
-                أحضر ملابس مريحة وزجاجة ماء وسجادة يوغا إذا كان لديك. وإذا لم
-                تكن لديك، يمكننا توفير واحدة للجلسة الأولى.
+                No experience is required. Our instructors guide beginners step
+                by step while providing modifications for more advanced
+                students.
               </p>
             </div>
           </li>
@@ -638,35 +661,49 @@
           <li class="faq-item">
             <button class="faq-header" type="button">
               <span class="faq-question"
-                >هل يمكنني الانضمام إلى الحصص عبر الإنترنت؟</span
+                >What should I bring to my first class?</span
               >
               <span class="faq-toggle"><span class="toggle-icon">+</span></span>
             </button>
             <div class="faq-answer">
               <p>
-                نعم، نقدم جلسات مباشرة عبر الإنترنت ودروسًا مسجلة يمكنك متابعتها
-                من أي مكان.
+                Bring comfortable clothes, a water bottle, and a yoga mat if you
+                have one. If not, we can provide one for your first session.
               </p>
             </div>
           </li>
 
           <li class="faq-item">
             <button class="faq-header" type="button">
-              <span class="faq-question">كم مرة يجب أن أمارس اليوغا؟</span>
+              <span class="faq-question">Can I join classes online?</span>
               <span class="faq-toggle"><span class="toggle-icon">+</span></span>
             </button>
             <div class="faq-answer">
               <p>
-                الممارسة من مرتين إلى أربع مرات في الأسبوع تساعد على بناء القوة
-                والمرونة والتوازن الداخلي، وفي نفس الوقت تتناسب مع جدولك
-                المزدحم.
+                Yes, we offer both live online sessions and recorded classes
+                that you can follow from anywhere.
+              </p>
+            </div>
+          </li>
+
+          <li class="faq-item">
+            <button class="faq-header" type="button">
+              <span class="faq-question"
+                >How often should I practice yoga?</span
+              >
+              <span class="faq-toggle"><span class="toggle-icon">+</span></span>
+            </button>
+            <div class="faq-answer">
+              <p>
+                Practicing 2–4 times per week helps build strength, flexibility,
+                and inner balance, while still fitting into a busy schedule.
               </p>
             </div>
           </li>
         </ul>
       </div>
     </section>
-    <!-- End الأسئلة الشائعة -->
+    <!-- End FAQ -->
 
     <!-- Start Get Started -->
     <section class="get-started">
@@ -679,21 +716,24 @@
           <div class="get-started-content">
             <div class="section-header">
               <span class="dot"></span>
-              <span>ابدأ الآن</span>
+              <span>Get started</span>
             </div>
 
-            <h2>ابدأ رحلتك نحو السلام الداخلي اليوم</h2>
+            <h2>
+              Begin your <span class="italic-lora">journey</span> to
+              <span class="italic-lora">inner peace</span> today
+            </h2>
 
             <p>
-              انضموا إلينا في جلسات تأملية تُحقق لكم الوضوح والهدوء والتوازن
-              الداخلي والقوة والتواصل العميق - نفسًا تلو الآخر
+              Join us for mindful sessions that bring clarity, calm, inner
+              balance, strength, and deep connection — one breath at a time.
             </p>
 
             <div class="buttons-wrapper">
-              <button class="secondary-button">تواصل معنا</button>
+              <button class="secondary-button">Contact us</button>
               <button class="primary-button">
-                <img src="assets/icons/arrow-right.svg" alt="ابدئي الآن" />
-                <span>ابدأ الآن</span>
+                <span>Explore classes</span>
+                <img src="assets/icons/arrow-right.svg" alt="Explore classes" />
               </button>
             </div>
           </div>
@@ -706,35 +746,35 @@
     <footer>
       <div class="container footer-grid">
         <div class="footer-left">
-          <div class="footer-brو">
+          <div class="footer-brand">
             <img src="assets/logo.png" alt="Nutribalance Logo" />
-            <p>انضم إلينا في جلسات تُلهم الوضوح والهدوء.</p>
-            <button class="primary-button">تواصل معنا</button>
+            <p>Join us for sessions that inspire clarity and calmness.</p>
+            <button class="primary-button">Contact us</button>
           </div>
         </div>
 
         <div class="footer-right">
           <div class="footer-column">
-            <h4>الصفحات الرئيسية</h4>
+            <h4>Main pages</h4>
             <ul>
-              <li><a href="#">الرئيسية</a></li>
-              <li><a href="#about-us">من نحن</a></li>
-              <li><a href="#">اتصل بنا</a></li>
+              <li><a href="#">Home</a></li>
+              <li><a href="#about-us">About</a></li>
+              <li><a href="#">Contact</a></li>
               <li><a href="#">404</a></li>
             </ul>
           </div>
 
           <div class="footer-column">
-            <h4>صفحات المحتوى</h4>
+            <h4>CMS pages</h4>
             <ul>
-              <li><a href="#">المقالات</a></li>
-              <li><a href="#classes">الخدمات</a></li>
-              <li><a href="#">النتائج</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#classes">Classes</a></li>
+              <li><a href="#">Instructors</a></li>
             </ul>
           </div>
 
           <div class="footer-column footer-contact">
-            <h4>معلومات التواصل</h4>
+            <h4>More info</h4>
             <ul>
               <li>
                 <span class="footer-icon">
@@ -752,7 +792,7 @@
                 <span class="footer-icon">
                   <img src="assets/footer/address.svg" alt="Location" />
                 </span>
-                <span>طوكيو، اليابان</span>
+                <span>Tokyo - Japan</span>
               </li>
             </ul>
           </div>
@@ -761,6 +801,9 @@
     </footer>
     <!-- End Footer -->
 
+    <button id="scroll-to-top" class="scroll-to-top" aria-label="Scroll to top">
+      ↑
+    </button>
     <script src="js/how-it-works.js"></script>
     <script src="js/mobile-menu.js"></script>
   </body>
