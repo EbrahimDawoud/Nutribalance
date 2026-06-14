@@ -47,7 +47,7 @@ Arabic loads at the root. English is at `/index-en.html`.
 Current placeholder contact details in the footer:
 
 - Email: info@nutribalance.com
-- Phone: +20 101 234 5678
+- Phone / WhatsApp: +20 102 573 4045
 - Location: Cairo, Egypt
 
 Replace these in `index.html` and `index-en.html` with your real business details.
