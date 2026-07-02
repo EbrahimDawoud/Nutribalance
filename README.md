@@ -1,87 +1,63 @@
-# 🥗 Dietitian Portfolio — NutriBalance
+# Nutribalance
 
-موقع **Portfolio** احترافي لطبيبة/أخصائية تغذية علاجية، مصمم كصفحة هبوط واحدة (**Landing Page**) سريعة، واضحة، ومتجاوبة بالكامل مع جميع أحجام الشاشات 📱💻.
+Static bilingual landing site for Nutribalance nutrition consulting (Arabic primary, English secondary).
 
----
+## Pages
 
-## ✨ المميزات (Features)
+| File | Language | URL |
+|------|----------|-----|
+| `index.html` | Arabic (default) | `/` |
+| `index-en.html` | English | `/index-en.html` |
 
-- تصميم حديث وبسيط يركز على تحويل الزائر إلى عميل.
-- صفحة واحدة منظمة وسهلة التصفح.
-- متجاوب بالكامل مع الموبايل، التابلت، وسطح المكتب.
-- أداء سريع وتجربة استخدام سلسة.
-- أقسام واضحة تدعم عرض الخدمات وبناء الثقة.
-- قسم تواصل مباشر يتضمن فورم + روابط السوشيال + واتساب.
+Use the **EN / عربي** toggle in the header to switch languages.
 
----
+## Local preview
 
-## 🧩 أقسام الموقع (Sections)
-
-1. **الهيدر والبطل (Hero Section)**  
-   مقدمة سريعة عن الدكتورة مع زر دعوة لاتخاذ إجراء (**CTA**).
-
-2. **عن الدكتورة (About Me)**  
-   نبذة احترافية عن الخبرة، الشهادات، ونهج التغذية العلاجية.
-
-3. **الباقات والخطط التغذوية (Our Plans / Services)**  
-   عرض الاشتراكات، البرامج الغذائية، والخدمات المتاحة.
-
-4. **آراء العملاء (Testimonials)**  
-   قصص وتجارب نجاح العملاء السابقين.
-
-5. **تواصل معنا (Contact Us)**  
-   نموذج تواصل + روابط التواصل الاجتماعي + زر/رابط واتساب.
-
----
-
-## 🛠️ التقنيات المستخدمة (Tech Stack)
-
-> يمكنك تعديل هذا القسم بحسب التقنية الفعلية داخل المشروع.
-
-- **HTML5**
-- **CSS3**
-- **JavaScript (Vanilla JS)**
-
----
-
-## 📁 هيكل الملفات (Folder Structure)
+From the project root:
 
 ```bash
-Nutribalance/
-├── index.html
-├── css/
-│   └── style.css
-├── js/
-│   └── main.js
-├── assets/
-│   ├── images/
-│   └── icons/
-└── README.md
+python -m http.server 8080
 ```
 
----
+Then open [http://localhost:8080](http://localhost:8080) for Arabic or [http://localhost:8080/index-en.html](http://localhost:8080/index-en.html) for English.
 
-## ▶️ طريقة التشغيل محلياً (How to Run)
+## Deploy (GitHub Pages)
 
-1. انسخ المشروع:
-   ```bash
-   git clone https://github.com/EbrahimDawoud/Nutribalance.git
-   ```
-2. ادخل إلى مجلد المشروع:
-   ```bash
-   cd Nutribalance
-   ```
-3. افتح ملف `index.html` مباشرة في المتصفح  
-   أو استخدم إضافة **Live Server** في VS Code لتجربة أفضل أثناء التطوير.
+### Option A — GitHub Actions (recommended)
 
----
+This repo includes [`.github/workflows/deploy-pages.yml`](.github/workflows/deploy-pages.yml). After pushing to `main`:
 
-## 📸 لقطات شاشة (Screenshots)
+1. Open **Settings → Pages** in the GitHub repository.
+2. Under **Build and deployment**, set Source to **GitHub Actions**.
+3. The workflow runs automatically on each push to `main`.
 
-> سيتم إضافة صور واجهة الموقع هنا لاحقاً.
+### Option B — Deploy from branch
 
-- Hero Section Screenshot
-- About Section Screenshot
-- Plans/Services Section Screenshot
-- Testimonials Section Screenshot
-- Contact Section Screenshot
+1. Push the `main` branch to GitHub.
+2. **Settings → Pages → Build and deployment**
+3. Source: **Deploy from a branch**
+4. Branch: **main** / **/ (root)**
+
+**Live URL:** [https://ebrahimdawoud.github.io/Nutribalance/](https://ebrahimdawoud.github.io/Nutribalance/)
+
+Arabic loads at the root. English is at `/index-en.html`.
+
+## Contact (update before go-live)
+
+Current placeholder contact details in the footer:
+
+- Email: info@nutribalance.com
+- Phone / WhatsApp: +20 102 573 4045
+- Location: Cairo, Egypt
+
+Replace these in `index.html` and `index-en.html` with your real business details.
+
+## Structure
+
+```
+index.html          # Arabic (RTL) — default entry
+index-en.html       # English
+styles/main.css     # Shared styles
+js/                 # Mobile menu, FAQ, how-it-works carousel
+assets/             # Images and icons
+```
